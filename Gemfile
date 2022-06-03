@@ -62,7 +62,7 @@ gem 'restforce', '~> 3.1.0'
 gem "aws-sdk", ">= 2.0"
 gem 'httparty'
 gem 'nokogiri'
-gem 'rack-cors', "1.1.0"
+gem 'rack-cors', :require => 'rack/cors'
 
 #gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '3-0-stable'
 
