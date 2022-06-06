@@ -57,7 +57,7 @@ GIT
       sprockets (>= 4.0)
 
 GIT
-  remote: https://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:x-oauth-basic@github.com/Align-Deployment/align-ids-layout.git
+  remote: https://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:x-oauth-basic@github.com/Align-Deployment/align-ids-layout.git
   revision: bdabccc07f1948f9976ab5ad0ad6234ce277695f
   branch: dev/1.0.x_navigation_fix
   specs:
@@ -71,7 +71,7 @@ GIT
       slim-rails
 
 GIT
-  remote: https://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:x-oauth-basic@github.com/Align-Deployment/align-ids-layout.git
+  remote: https://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:x-oauth-basic@github.com/Align-Deployment/align-ids-layout.git
   revision: 7855fb47d3e1908d7ebf71b7618978f0c871c614
   branch: dev/storenume
   specs:
@@ -82,7 +82,7 @@ GIT
       sass-rails (>= 3.2)
 
 GIT
-  remote: https://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:x-oauth-basic@github.com/Align-Deployment/omniauth-invisalign.git
+  remote: https://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:x-oauth-basic@github.com/Align-Deployment/omniauth-invisalign.git
   revision: f92cb15e019525d349d81bebbb37b8b1c4e9bebe
   tag: v2.3.1
   specs:
@@ -1595,12 +1595,12 @@ GEM
     netrc (0.11.0)
     newrelic_rpm (8.2.0)
     nio4r (2.5.8)
-    nokogiri (1.13.3)
+    nokogiri (1.13.6)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     nori (2.6.0)
-    oauth2 (1.4.7)
-      faraday (>= 0.8, < 2.0)
+    oauth2 (1.4.8)
+      faraday (>= 0.8, < 3.0)
       jwt (>= 1.0, < 3.0)
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
@@ -1654,7 +1654,7 @@ GEM
       sprockets-rails (>= 2.0.0)
     rails-assets-classnames (2.2.5)
     rails-assets-console-polyfill (0.3.0)
-    rails-assets-es5-shim (4.5.13)
+    rails-assets-es5-shim (4.6.7)
     rails-assets-html5shiv (3.7.3)
     rails-assets-react (16.1.0)
     rails-assets-react-bootstrap (0.31.5)
@@ -1712,6 +1712,9 @@ GEM
       hashie (>= 1.2.0, < 4.0)
       json (>= 1.7.5)
     rexml (3.2.5)
+    roo (2.9.0)
+      nokogiri (~> 1)
+      rubyzip (>= 1.3.0, < 3.0.0)
     ruby-kafka (1.4.0)
       digest-crc
     ruby-saml (1.13.0)
@@ -1719,6 +1722,7 @@ GEM
       rexml
     ruby-vips (2.1.4)
       ffi (~> 1.12)
+    rubyzip (2.3.2)
     sass (3.4.25)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -1747,7 +1751,7 @@ GEM
     slim (4.1.0)
       temple (>= 0.7.6, < 0.9)
       tilt (>= 2.0.6, < 2.1)
-    slim-rails (3.3.0)
+    slim-rails (3.5.1)
       actionpack (>= 3.1)
       railties (>= 3.1)
       slim (>= 3.0, < 5.0)
@@ -1918,6 +1922,7 @@ DEPENDENCIES
   rails_12factor
   react-rails
   restforce (~> 3.1.0)
+  roo (~> 2.8)
   ruby-kafka
   sass-rails (>= 5.0.0)
   savon (~> 2.10.0)
