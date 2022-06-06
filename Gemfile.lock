@@ -1590,7 +1590,7 @@ GEM
       i18n (>= 0.6.4, <= 2)
     multi_json (1.15.0)
     multi_xml (0.6.0)
-    multipart-post (2.1.1)
+    multipart-post (2.2.0)
     net-http-persistent (2.9.4)
     netrc (0.11.0)
     newrelic_rpm (8.2.0)
@@ -1599,8 +1599,8 @@ GEM
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     nori (2.6.0)
-    oauth2 (1.4.8)
-      faraday (>= 0.8, < 3.0)
+    oauth2 (1.4.7)
+      faraday (>= 0.8, < 2.0)
       jwt (>= 1.0, < 3.0)
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
@@ -1906,6 +1906,7 @@ DEPENDENCIES
   js-model-rails
   newrelic_rpm
   nokogiri
+  oauth2 (= 1.4.7)
   omniauth-invisalign (= 2.3.1)!
   omniauth-saml
   pg
