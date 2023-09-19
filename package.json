@@ -20,7 +20,7 @@
     "@bugsnag/js": "^7.17.0",
     "@bugsnag/plugin-express": "^7.17.0",
     "@bugsnag/plugin-react": "^7.17.0",
-    "@reach/dialog": "^0.17.0",
+    "@reach/dialog": "^0.18.0",
     "@splidejs/splide": "^4.1.4",
     "@tanstack/match-sorter-utils": "^8.1.1",
     "@tanstack/react-table": "^8.5.6",
